@@ -1,6 +1,6 @@
 const _ = require('underscore');
 
-let stack = [];
+let stack = [1, 2, "error"];
 
 // Lägger ett element överst i stacken
 exports.push = function (x) {
